@@ -9,7 +9,7 @@ All the code you need to care above it in HomeController for brevity.
 
 ## Payload:
 
-```
+```json
 {
   "draw": 1,
   "columns": [
@@ -38,3 +38,15 @@ All the code you need to care above it in HomeController for brevity.
   }
 }
 ```
+
+## Notice that you get back the following:
+
+```json
+{
+  "draw": 1,
+  "columns": [
+    {
+      "data": "CatBreed.BreedName",
+```
+
+Normally you dont send this payload back to the user, this would be sent to [DataTables.Queryable](https://github.com/AlexanderKrutov/DataTables.Queryable) for automatic processing.
