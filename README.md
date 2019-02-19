@@ -2,7 +2,7 @@
 
 Thats a heck of a title isnt it?
 
-All the code you need to care above it in HomeController for brevity.
+All the code you need to care about is in HomeController for brevity.
 
 - `dotnet run`
 - POST to `http://localhost:5411/api/Home?param1=HelloWorld`
