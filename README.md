@@ -2,11 +2,12 @@
 
 Thats a heck of a title isnt it?
 
-`dotnet run`
+All the code you need to care above it in HomeController for brevity.
 
-POST to `http://localhost:5411/api/Home?param1=HelloWorld`
+- `dotnet run`
+- POST to `http://localhost:5411/api/Home?param1=HelloWorld`
 
-Payload:
+## Payload:
 
 ```
 {
